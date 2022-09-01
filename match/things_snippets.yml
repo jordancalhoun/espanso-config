@@ -45,3 +45,6 @@ matches:
 
   - trigger: "/re " 
     replace: "REVIEW: "
+  
+  - trigger: "/pr "
+    replace: "PRINT: "
