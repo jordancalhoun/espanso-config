@@ -1,0 +1,8 @@
+matches:
+  - trigger: "/now " 
+    replace: "{today}"
+    vars:
+    - name: today
+      type: date
+      params:
+        format: "%m/%d/%Y"
