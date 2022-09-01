@@ -4,5 +4,5 @@
 3. Run the following in terminal:
  
     ```
-    ln -s "$HOME/Sync/Preferences/espanso" "/Users/jordancalhoun/Library/Application Support/espanso"
+    ln -s "$HOME/Sync/Preferences/espanso" "$HOME/Library/Application Support/espanso"
     ```
