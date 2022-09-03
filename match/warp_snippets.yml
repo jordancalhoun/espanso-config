@@ -1,0 +1,7 @@
+matches:
+  - trigger: "init svelte "
+    replace: "pnpm init svelte@next $|$"
+
+  - trigger: "init tailwind"
+    replace: "pnpm install -D tailwindcss postcss autoprefixer svelte-preprocess \n
+            pnpx tailwindcss init tailwind.config.cjs -p"
