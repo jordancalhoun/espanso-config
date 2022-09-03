@@ -1,6 +1,6 @@
 matches:
   - trigger: "init svelte "
-    replace: "pnpm init svelte@next $|$"
+    replace: "pnpm create svelte@latest $|$"
 
   - trigger: "init tailwind"
     replace: "pnpm install -D tailwindcss postcss autoprefixer svelte-preprocess \n
