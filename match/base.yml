@@ -6,3 +6,17 @@ matches:
       type: date
       params:
         format: "%m/%d/%Y"
+
+  - trigger: "/comdata "
+    replace: "#507
+
+              #511
+
+              #512
+
+              #514
+
+              $total = 
+              $fees = 
+
+              $total - $fees"

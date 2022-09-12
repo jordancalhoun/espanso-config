@@ -2,49 +2,49 @@ matches:
   - trigger: "/e "
     replace: "EMAIL: "
 
-  - trigger: "/f " 
+  - trigger: "/f "
     replace: "FILE: "
-  
-  - trigger: "/b " 
+
+  - trigger: "/b "
     replace: "BUDGET/PAY: "
 
-  - trigger: "/c " 
+  - trigger: "/c "
     replace: "CALL: "
-  
-  - trigger: "/p " 
-    replace: "PROCESS:"
-  
-  - trigger: "/td " 
+
+  - trigger: "/p "
+    replace: "PROCESS: "
+
+  - trigger: "/td "
     replace: "::{{today}}::"
     vars:
       - name: today
         type: date
         params:
           format: "%m/%d/%Y"
-  
-  - trigger: "/fu " 
+
+  - trigger: "/fu "
     replace: "FOLLOW UP: "
 
-  - trigger: "/l " 
+  - trigger: "/l "
     replace: "LIST: "
 
-  - trigger: "/s " 
+  - trigger: "/s "
     replace: "SCHEDULE: "
 
-  - trigger: "/u " 
+  - trigger: "/u "
     replace: "UPDATE: "
-  
-  - trigger: "/wf " 
+
+  - trigger: "/wf "
     replace: "WAITING FOR: "
 
-  - trigger: "/w " 
+  - trigger: "/w "
     replace: "WATCH: "
 
-  - trigger: "/a " 
+  - trigger: "/a "
     replace: "ADD: "
 
-  - trigger: "/re " 
+  - trigger: "/re "
     replace: "REVIEW: "
-  
+
   - trigger: "/pr "
     replace: "PRINT: "
